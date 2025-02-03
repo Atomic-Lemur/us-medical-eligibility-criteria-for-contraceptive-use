@@ -11,6 +11,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Cache npm dependencies
+        uses: actions/cache@v3
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
       - uses: actions/setup-node@v3
         with:
           node-version: '18'
@@ -24,4 +32,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: expo-web-build
-          path: dist/web/
+          path: dist/_expo/static/js/web/
