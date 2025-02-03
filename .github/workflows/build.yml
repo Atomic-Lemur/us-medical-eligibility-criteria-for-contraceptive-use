@@ -33,3 +33,9 @@ jobs:
         with:
           name: expo-web-build
           path: dist/_expo/static/js/web/
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: dist/_expo/static/js/web
