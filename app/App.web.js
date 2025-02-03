@@ -15,7 +15,7 @@ import {
     Paper,
     Grid,
 } from '@mui/material';
-import conditionsData from './assets/data.json';
+import conditionsData from '../assets/data.json';
 import { getColorForValue, INFO_TEXTS, PDF_URL } from './utils';
 
 export default function App() {

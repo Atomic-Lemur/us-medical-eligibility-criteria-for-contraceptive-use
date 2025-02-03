@@ -4,16 +4,15 @@
     "slug": "us-medical-eligibility-criteria-for-contraceptive-use",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/images/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.atomiclemur.contraceptiveconditionsreference",
@@ -23,20 +22,33 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
       "package": "com.atomiclemur.contraceptiveconditionsreference"
     },
     "web": {
-      "output": "static",
       "bundler": "metro",
-      "favicon": "./assets/favicon.png",
+      "favicon": "./assets/images/favicon.png",
       "name": "US MEC for Contraceptive Use",
       "shortName": "US MEC",
       "description": "Reference for US Medical Eligibility Criteria for Contraceptive Use"
     },
-    "newArchEnabled": true,
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
     "extra": {
       "eas": {
         "projectId": "ffaad88e-bb86-49f9-a478-91e84f71465d"

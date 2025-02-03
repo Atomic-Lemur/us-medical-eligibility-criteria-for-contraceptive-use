@@ -11,8 +11,8 @@ import {
     List,
     Button,
 } from 'react-native-paper';
-import Pdf from 'react-native-pdf';
-import conditionsData from './assets/data.json';
+import PdfViewer from './PdfViewer';
+import conditionsData from '../assets/data.json';
 import { getColorForValue, INFO_TEXTS, PDF_URL } from './utils';
 
 export default function App() {
@@ -23,15 +23,15 @@ export default function App() {
     const [showPdf, setShowPdf] = useState(false);
 
     const renderPdfViewer = () => {
-        const source = { uri: PDF_URL, cache: true };
+        const source = { uri: PDF_URL };
 
         return (
             <View style={styles.pdfContainer}>
                 <Button mode='contained' onPress={() => setShowPdf(false)} style={styles.pdfButton}>
                     Go Back
                 </Button>
-                <Pdf
-                    source={source}
+                <PdfViewer
+                    source={{source}}
                     style={styles.pdf}
                     onError={(error) => {
                         console.log(error);
