@@ -2,6 +2,8 @@
   "name": "us-medical-eligibility-criteria-for-contraceptive-use",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
+  "author": "Jon Link",
+  "license": "MIT",
   "scripts": {
     "start": "expo start",
     "android": "expo run:android",
@@ -23,5 +25,8 @@
   "devDependencies": {
     "@babel/core": "^7.20.0"
   },
-  "private": true
+  "bugs": {
+    "url": "https://github.com/Atomic-Lemur/us-medical-eligibility-criteria-for-contraceptive-use/issues"
+  },
+  "homepage": "https://github.com/Atomic-Lemur/us-medical-eligibility-criteria-for-contraceptive-use"
 }
