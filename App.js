@@ -1,5 +1,5 @@
 import React, { useState, useCallback, useEffect } from 'react';
-import { StyleSheet, View, FlatList, ScrollView, Platform, Linking } from 'react-native';
+import { StyleSheet, View, FlatList, ScrollView, Platform, Dimensions } from 'react-native';
 import {
     Provider as PaperProvider,
     Searchbar,
@@ -11,7 +11,7 @@ import {
     List,
     Button,
 } from 'react-native-paper';
-import * as WebBrowser from 'expo-web-browser';
+import Pdf from 'react-native-pdf';
 import conditionsData from './assets/data.json';
 
 const getColorForValue = (value) => {
@@ -34,42 +34,37 @@ export default function App() {
     const [modalVisible, setModalVisible] = useState(false);
     const [filteredConditions, setFilteredConditions] = useState([]);
     const [selectedConditions, setSelectedConditions] = useState([]);
+    const [showPdf, setShowPdf] = useState(false);
 
-    const handleOpenPDF = async () => {
-        const pdfUrl =
-            'https://raw.githubusercontent.com/Atomic-Lemur/us-medical-eligibility-criteria-for-contraceptive-use/main/assets/summary_chart.pdf';
+    const renderPdfViewer = () => {
+        const source = {
+            uri: 'https://github.com/Atomic-Lemur/us-medical-eligibility-criteria-for-contraceptive-use/blob/main/assets/summary_chart.pdf?raw=true',
+            cache: true,
+        };
 
-        if (Platform.OS === 'web') {
-            // For web, directly open the PDF in a new tab
-            window.open(pdfUrl, '_blank');
-        } else {
-            // For mobile platforms, use WebBrowser
-            try {
-                await WebBrowser.openBrowserAsync(pdfUrl);
-            } catch (error) {
-                console.error('Error opening PDF:', error);
-                // Fallback to default browser if WebBrowser fails
-                await Linking.openURL(pdfUrl);
-            }
-        }
-    };
-
-    const handleSearchFocus = () => {
-        setModalVisible(true);
-        setSearchQuery('');
-        setFilteredConditions([]);
+        return (
+            <View style={styles.pdfContainer}>
+                <Button mode='contained' onPress={() => setShowPdf(false)} style={styles.pdfButton}>
+                    Go Back
+                </Button>
+                <Pdf
+                    source={source}
+                    style={styles.pdf}
+                    onError={(error) => {
+                        console.log(error);
+                    }}
+                />
+            </View>
+        );
     };
 
     const handleRemoveCondition = (conditionToRemove) => {
-        console.log('Removing condition:', conditionToRemove);
         setSelectedConditions(selectedConditions.filter((condition) => condition !== conditionToRemove));
     };
 
     const debouncedSearch = useCallback(
         (query) => {
             if (query.length >= 3) {
-                console.log('Debounced search running with query:', query);
-                console.log('Current selectedConditions:', selectedConditions);
                 const filtered = Object.entries(conditionsData)
                     .filter(([condition]) => {
                         const matches = condition.toLowerCase().includes(query.toLowerCase());
@@ -81,7 +76,6 @@ export default function App() {
                     })
                     .map(([condition]) => condition);
 
-                console.log('Filtered conditions:', filtered);
                 setFilteredConditions(filtered);
             } else {
                 setFilteredConditions([]);
@@ -98,7 +92,14 @@ export default function App() {
         return () => clearTimeout(timeoutId);
     }, [searchQuery, debouncedSearch]);
 
+    useEffect(() => {
+        if (modalVisible) {
+            debouncedSearch(searchQuery);
+        }
+    }, [modalVisible, searchQuery, debouncedSearch]);
+
     const onChangeSearch = (query) => {
+        setModalVisible(true);
         setSearchQuery(query);
     };
 
@@ -112,8 +113,6 @@ export default function App() {
 
     const handleCloseModal = () => {
         setModalVisible(false);
-        setSearchQuery('');
-        setFilteredConditions([]);
     };
 
     const renderSelectedConditions = () => (
@@ -178,69 +177,80 @@ export default function App() {
     return (
         <PaperProvider>
             <View style={[styles.container, { paddingTop: Platform.OS === 'ios' ? 50 : 25 }]}>
-                <View style={styles.searchContainer}>
-                    <Searchbar
-                        placeholder='Search conditions (min. 3 characters)'
-                        onChangeText={onChangeSearch}
-                        value={searchQuery}
-                        style={styles.searchbar}
-                        onFocus={handleSearchFocus}
-                    />
-                    {renderSelectedConditions()}
-                </View>
+                {showPdf ? (
+                    renderPdfViewer()
+                ) : (
+                    <>
+                        <View style={styles.searchContainer}>
+                            <Searchbar
+                                placeholder='Search conditions (min. 3 characters)'
+                                onChangeText={onChangeSearch}
+                                value={searchQuery}
+                                style={styles.searchbar}
+                            />
+                            {renderSelectedConditions()}
+                        </View>
 
-                {renderConditionDetails()}
+                        {renderConditionDetails()}
 
-                <Portal>
-                    <Modal
-                        visible={modalVisible}
-                        onDismiss={() => handleCloseModal()}
-                        contentContainerStyle={[
-                            styles.modal,
-                            Platform.OS === 'ios' ? { marginTop: 60 } : { marginTop: 40 },
-                        ]}
-                    >
-                        <FlatList
-                            data={filteredConditions}
-                            keyExtractor={(item) => item}
-                            renderItem={({ item }) => (
-                                <List.Item
-                                    title={item}
-                                    onPress={() => handleSelectCondition(item)}
-                                    style={styles.modalItem}
+                        <Portal>
+                            <Modal
+                                visible={modalVisible}
+                                onDismiss={() => handleCloseModal()}
+                                contentContainerStyle={[
+                                    styles.modal,
+                                    Platform.OS === 'ios' ? { marginTop: 60 } : { marginTop: 40 },
+                                ]}
+                            >
+                                <FlatList
+                                    data={filteredConditions}
+                                    keyExtractor={(item) => item}
+                                    renderItem={({ item }) => (
+                                        <List.Item
+                                            title={item}
+                                            titleNumberOfLines={0}
+                                            titleStyle={{ flexWrap: 'wrap' }}
+                                            onPress={() => handleSelectCondition(item)}
+                                            style={styles.modalItem}
+                                        />
+                                    )}
+                                    ListEmptyComponent={() =>
+                                        searchQuery.length > 0 && searchQuery.length < 3 ? (
+                                            <Text style={styles.emptyText}>Type at least 3 characters to search</Text>
+                                        ) : null
+                                    }
                                 />
-                            )}
-                            ListEmptyComponent={() =>
-                                searchQuery.length > 0 && searchQuery.length < 3 ? (
-                                    <Text style={styles.emptyText}>Type at least 3 characters to search</Text>
-                                ) : null
-                            }
-                        />
-                    </Modal>
-                </Portal>
+                            </Modal>
+                        </Portal>
 
-                <View style={styles.infoBox}>
-                    <Text style={styles.infoText}>
-                        1 = A condition for which there is no restriction for the use of the contraceptive method
-                    </Text>
-                    <Text style={styles.infoText}>
-                        2 = A condition for which the advantages of using the method generally outweigh the theoretical
-                        or proven risks
-                    </Text>
-                    <Text style={styles.infoText}>
-                        3 = A condition for which the theoretical or proven risks usually outweigh the advantages of
-                        using the method
-                    </Text>
-                    <Text style={styles.infoText}>
-                        4 = A condition that represents an unacceptable health risk if the contraceptive method is used
-                    </Text>
-                    <Text style={styles.infoText}>source: US Medical Eligibility Criteria for Contraceptive Use</Text>
-                    <View style={styles.pdfButtonContainer}>
-                        <Button mode='contained' onPress={handleOpenPDF} style={styles.pdfButton}>
-                            View Summary Chart (PDF)
-                        </Button>
-                    </View>
-                </View>
+                        <View style={styles.infoBox}>
+                            <Text style={styles.infoText}>
+                                1 = A condition for which there is no restriction for the use of the contraceptive
+                                method
+                            </Text>
+                            <Text style={styles.infoText}>
+                                2 = A condition for which the advantages of using the method generally outweigh the
+                                theoretical or proven risks
+                            </Text>
+                            <Text style={styles.infoText}>
+                                3 = A condition for which the theoretical or proven risks usually outweigh the
+                                advantages of using the method
+                            </Text>
+                            <Text style={styles.infoText}>
+                                4 = A condition that represents an unacceptable health risk if the contraceptive method
+                                is used
+                            </Text>
+                            <Text style={styles.infoText}>
+                                source: US Medical Eligibility Criteria for Contraceptive Use
+                            </Text>
+                            <View style={styles.pdfButtonContainer}>
+                                <Button mode='contained' onPress={() => setShowPdf(true)} style={styles.pdfButton}>
+                                    View Summary Chart PDF
+                                </Button>
+                            </View>
+                        </View>
+                    </>
+                )}
             </View>
         </PaperProvider>
     );
@@ -310,7 +320,6 @@ const styles = StyleSheet.create({
         marginBottom: 'auto',
         padding: 16,
         borderRadius: 8,
-        maxHeight: '80%',
     },
     modalItem: {
         paddingVertical: 4,
@@ -330,10 +339,16 @@ const styles = StyleSheet.create({
     infoText: {
         fontSize: 10,
     },
-    pdfButtonContainer: {
-        padding: 5,
-    },
     pdfButton: {
-        marginVertical: 1,
+        margin: 10,
+    },
+    pdfContainer: {
+        flex: 1,
+        width: '100%',
+    },
+    pdf: {
+        flex: 1,
+        width: Dimensions.get('window').width,
+        height: Dimensions.get('window').height,
     },
 });
