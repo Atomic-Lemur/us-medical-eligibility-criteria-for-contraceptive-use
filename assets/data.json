@@ -1,0 +1,4110 @@
+{
+  "age - menarche to <20 yrs": {
+    "Cu-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "LNG-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "",
+      "C": ""
+    },
+    "DMPA": {
+      "I": "",
+      "C": ""
+    },
+    "POP": {
+      "I": "",
+      "C": ""
+    },
+    "CHC": {
+      "I": "",
+      "C": ""
+    }
+  },
+  "age - menarche to <18 yrs": {
+    "Cu-IUD": {
+      "I": "",
+      "C": ""
+    },
+    "LNG-IUD": {
+      "I": "",
+      "C": ""
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "2"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "",
+      "C": ""
+    }
+  },
+  "age - menarche to <40 yrs": {
+    "Cu-IUD": {
+      "I": "",
+      "C": ""
+    },
+    "LNG-IUD": {
+      "I": "",
+      "C": ""
+    },
+    "Implant": {
+      "I": "",
+      "C": ""
+    },
+    "DMPA": {
+      "I": "",
+      "C": ""
+    },
+    "POP": {
+      "I": "",
+      "C": ""
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "age - \u226520 yrs": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "",
+      "C": ""
+    },
+    "DMPA": {
+      "I": "",
+      "C": ""
+    },
+    "POP": {
+      "I": "",
+      "C": ""
+    },
+    "CHC": {
+      "I": "",
+      "C": ""
+    }
+  },
+  "age - 18\u201345 yrs": {
+    "Cu-IUD": {
+      "I": "",
+      "C": ""
+    },
+    "LNG-IUD": {
+      "I": "",
+      "C": ""
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "",
+      "C": ""
+    }
+  },
+  "age - \u226540 yrs": {
+    "Cu-IUD": {
+      "I": "",
+      "C": ""
+    },
+    "LNG-IUD": {
+      "I": "",
+      "C": ""
+    },
+    "Implant": {
+      "I": "",
+      "C": ""
+    },
+    "DMPA": {
+      "I": "",
+      "C": ""
+    },
+    "POP": {
+      "I": "",
+      "C": ""
+    },
+    "CHC": {
+      "I": "2",
+      "C": "2"
+    }
+  },
+  "age - >45 yrs": {
+    "Cu-IUD": {
+      "I": "",
+      "C": ""
+    },
+    "LNG-IUD": {
+      "I": "",
+      "C": ""
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "2",
+      "C": "2"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "",
+      "C": ""
+    }
+  },
+  "anatomical abnormalities - distorted uterine cavity": {
+    "Cu-IUD": {
+      "I": "4",
+      "C": "4"
+    },
+    "LNG-IUD": {
+      "I": "4",
+      "C": "4"
+    },
+    "Implant": {
+      "I": "",
+      "C": ""
+    },
+    "DMPA": {
+      "I": "",
+      "C": ""
+    },
+    "POP": {
+      "I": "",
+      "C": ""
+    },
+    "CHC": {
+      "I": "",
+      "C": ""
+    }
+  },
+  "anatomical abnormalities - other abnormalities": {
+    "Cu-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "LNG-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "",
+      "C": ""
+    },
+    "DMPA": {
+      "I": "",
+      "C": ""
+    },
+    "POP": {
+      "I": "",
+      "C": ""
+    },
+    "CHC": {
+      "I": "",
+      "C": ""
+    }
+  },
+  "anemia, iron-deficiency": {
+    "Cu-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "benign ovarian tumors - (including cysts)": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "breast disease - undiagnosed mass": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "2",
+      "C": "2"
+    },
+    "DMPA": {
+      "I": "2",
+      "C": "2"
+    },
+    "POP": {
+      "I": "2",
+      "C": "2"
+    },
+    "CHC": {
+      "I": "2",
+      "C": "2"
+    }
+  },
+  "breast disease - benign breast disease": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "breast disease - family history of cancer": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "breast disease - breast cancer \u2014 current": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "4",
+      "C": "4"
+    },
+    "Implant": {
+      "I": "4",
+      "C": "4"
+    },
+    "DMPA": {
+      "I": "4",
+      "C": "4"
+    },
+    "POP": {
+      "I": "4",
+      "C": "4"
+    },
+    "CHC": {
+      "I": "4",
+      "C": "4"
+    }
+  },
+  "breast disease - breast cancer \u2014 past and no evidence of current disease for 5 years": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "3",
+      "C": "3"
+    },
+    "Implant": {
+      "I": "3",
+      "C": "3"
+    },
+    "DMPA": {
+      "I": "3",
+      "C": "3"
+    },
+    "POP": {
+      "I": "3",
+      "C": "3"
+    },
+    "CHC": {
+      "I": "3",
+      "C": "3"
+    }
+  },
+  "breastfeeding - <21 days postpartum": {
+    "Cu-IUD": {
+      "I": "",
+      "C": ""
+    },
+    "LNG-IUD": {
+      "I": "",
+      "C": ""
+    },
+    "Implant": {
+      "I": "2",
+      "C": "2"
+    },
+    "DMPA": {
+      "I": "2",
+      "C": "2"
+    },
+    "POP": {
+      "I": "2",
+      "C": "2"
+    },
+    "CHC": {
+      "I": "4",
+      "C": "4"
+    }
+  },
+  "breastfeeding - 21 to <30 days postpartumi \u2014 with other risk factors for vte": {
+    "Cu-IUD": {
+      "I": "",
+      "C": ""
+    },
+    "LNG-IUD": {
+      "I": "",
+      "C": ""
+    },
+    "Implant": {
+      "I": "2",
+      "C": "2"
+    },
+    "DMPA": {
+      "I": "2",
+      "C": "2"
+    },
+    "POP": {
+      "I": "2",
+      "C": "2"
+    },
+    "CHC": {
+      "I": "3",
+      "C": "3"
+    }
+  },
+  "breastfeeding - 21 to <30 days postpartum \u2014 without other risk factors for vte": {
+    "Cu-IUD": {
+      "I": "",
+      "C": ""
+    },
+    "LNG-IUD": {
+      "I": "",
+      "C": ""
+    },
+    "Implant": {
+      "I": "2",
+      "C": "2"
+    },
+    "DMPA": {
+      "I": "2",
+      "C": "2"
+    },
+    "POP": {
+      "I": "2",
+      "C": "2"
+    },
+    "CHC": {
+      "I": "3",
+      "C": "3"
+    }
+  },
+  "breastfeeding - 30-42 days postpartum \u2014 with other risk factors for vte": {
+    "Cu-IUD": {
+      "I": "",
+      "C": ""
+    },
+    "LNG-IUD": {
+      "I": "",
+      "C": ""
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "2",
+      "C": "2"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "3",
+      "C": "3"
+    }
+  },
+  "breastfeeding - 30-42 days postpartum \u2014 without other risk factors for vte": {
+    "Cu-IUD": {
+      "I": "",
+      "C": ""
+    },
+    "LNG-IUD": {
+      "I": "",
+      "C": ""
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "2",
+      "C": "2"
+    }
+  },
+  "breastfeeding - >42 days postpartum": {
+    "Cu-IUD": {
+      "I": "",
+      "C": ""
+    },
+    "LNG-IUD": {
+      "I": "",
+      "C": ""
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "2",
+      "C": "2"
+    }
+  },
+  "cervical cancer - awaiting treatment": {
+    "Cu-IUD": {
+      "I": "4",
+      "C": "2"
+    },
+    "LNG-IUD": {
+      "I": "4",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "2",
+      "C": "2"
+    },
+    "DMPA": {
+      "I": "2",
+      "C": "2"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "2",
+      "C": "2"
+    }
+  },
+  "cervical ectropion": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "cervical intraepithelial neoplasia": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "2",
+      "C": "2"
+    },
+    "DMPA": {
+      "I": "2",
+      "C": "2"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "2",
+      "C": "2"
+    }
+  },
+  "chronic kidney disease - current nephrotic syndrome": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "2",
+      "C": "2"
+    },
+    "DMPA": {
+      "I": "3",
+      "C": "3"
+    },
+    "POP": {
+      "I": "2/4",
+      "C": "2/4"
+    },
+    "CHC": {
+      "I": "4",
+      "C": "4"
+    }
+  },
+  "chronic kidney disease - hemodialysis": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "2",
+      "C": "2"
+    },
+    "DMPA": {
+      "I": "3",
+      "C": "3"
+    },
+    "POP": {
+      "I": "2/4",
+      "C": "2/4"
+    },
+    "CHC": {
+      "I": "4",
+      "C": "4"
+    }
+  },
+  "chronic kidney disease - peritoneal dialysis": {
+    "Cu-IUD": {
+      "I": "2",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "2",
+      "C": "2"
+    },
+    "DMPA": {
+      "I": "3",
+      "C": "3"
+    },
+    "POP": {
+      "I": "2/4",
+      "C": "2/4"
+    },
+    "CHC": {
+      "I": "4",
+      "C": "4"
+    }
+  },
+  "cirrhosis - compensated (normal liver function)": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "cirrhosis - decompensated (impaired liver function)": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "2",
+      "C": "2"
+    },
+    "DMPA": {
+      "I": "3",
+      "C": "3"
+    },
+    "POP": {
+      "I": "2",
+      "C": "2"
+    },
+    "CHC": {
+      "I": "4",
+      "C": "4"
+    }
+  },
+  "cystic fibrosis": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "2",
+      "C": "2"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "deep venous thrombosis (dvt)/pulmonary embolism (pe) - current or history of dvt/pve, receiving anticoagulant therapy (therapeutic dose)": {
+    "Cu-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "LNG-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "2",
+      "C": "2"
+    },
+    "DMPA": {
+      "I": "2",
+      "C": "2"
+    },
+    "POP": {
+      "I": "2",
+      "C": "2"
+    },
+    "CHC": {
+      "I": "3",
+      "C": "3"
+    }
+  },
+  "deep venous thrombosis (dvt)/pulmonary embolism (pe) - history of dvt/pe, receiving anticoagulant therapy (prophylactic dose) \u2014 higher risk for recurrent dvt/pe": {
+    "Cu-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "LNG-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "2",
+      "C": "2"
+    },
+    "DMPA": {
+      "I": "3",
+      "C": "3"
+    },
+    "POP": {
+      "I": "2",
+      "C": "2"
+    },
+    "CHC": {
+      "I": "4",
+      "C": "4"
+    }
+  },
+  "deep venous thrombosis (dvt)/pulmonary embolism (pe) - history of dvt/pe, receiving anticoagulant therapy (prophylactic dose) \u2014 lower risk for recurrent dvt/pe": {
+    "Cu-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "LNG-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "2",
+      "C": "2"
+    },
+    "DMPA": {
+      "I": "2",
+      "C": "2"
+    },
+    "POP": {
+      "I": "2",
+      "C": "2"
+    },
+    "CHC": {
+      "I": "3",
+      "C": "3"
+    }
+  },
+  "deep venous thrombosis (dvt)/pulmonary embolism (pe) - history of dvt/pe, not receiving anticoagulant therapy \u2014 higher risk for recurrent dvt/pe": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "2",
+      "C": "2"
+    },
+    "DMPA": {
+      "I": "3",
+      "C": "3"
+    },
+    "POP": {
+      "I": "2",
+      "C": "2"
+    },
+    "CHC": {
+      "I": "4",
+      "C": "4"
+    }
+  },
+  "deep venous thrombosis (dvt)/pulmonary embolism (pe) - history of dvt/pe, not receiving anticoagulant therapy \u2014 lower risk for recurrent dvt/pe": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "2",
+      "C": "2"
+    },
+    "DMPA": {
+      "I": "2",
+      "C": "2"
+    },
+    "POP": {
+      "I": "2",
+      "C": "2"
+    },
+    "CHC": {
+      "I": "3",
+      "C": "3"
+    }
+  },
+  "deep venous thrombosis (dvt)/pulmonary embolism (pe) - history of dvt/pe, not receiving anticoagulant therapy \u2014 family history (first-degree relatives)": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "2",
+      "C": "2"
+    }
+  },
+  "depressive disorders": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "diabetes - history of gestational disease": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "diabetes - nonvascular disease non-insulin dependent": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "2",
+      "C": "2"
+    },
+    "DMPA": {
+      "I": "2",
+      "C": "2"
+    },
+    "POP": {
+      "I": "2",
+      "C": "2"
+    },
+    "CHC": {
+      "I": "2",
+      "C": "2"
+    }
+  },
+  "diabetes - nonvascular disease insulin dependent": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "2",
+      "C": "2"
+    },
+    "DMPA": {
+      "I": "2",
+      "C": "2"
+    },
+    "POP": {
+      "I": "2",
+      "C": "2"
+    },
+    "CHC": {
+      "I": "2",
+      "C": "2"
+    }
+  },
+  "diabetes - nephropathy, retinopathy, or neuropathy": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "2",
+      "C": "2"
+    },
+    "DMPA": {
+      "I": "3",
+      "C": "3"
+    },
+    "POP": {
+      "I": "2",
+      "C": "2"
+    },
+    "CHC": {
+      "I": "3/4",
+      "C": "3/4"
+    }
+  },
+  "diabetes - other vascular disease or diabetes of >20 years\u2019 duration": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "2",
+      "C": "2"
+    },
+    "DMPA": {
+      "I": "3",
+      "C": "3"
+    },
+    "POP": {
+      "I": "2",
+      "C": "2"
+    },
+    "CHC": {
+      "I": "3/4",
+      "C": "3/4"
+    }
+  },
+  "dysmenorrhea - severe": {
+    "Cu-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "endometrial cancer": {
+    "Cu-IUD": {
+      "I": "4",
+      "C": "2"
+    },
+    "LNG-IUD": {
+      "I": "4",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "endometrial hyperplasia": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "endometriosis": {
+    "Cu-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "epilepsy - (see also drug interactions)": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "gallbladder disease - asymptomatic": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "2",
+      "C": "2"
+    },
+    "DMPA": {
+      "I": "2",
+      "C": "2"
+    },
+    "POP": {
+      "I": "2",
+      "C": "2"
+    },
+    "CHC": {
+      "I": "2",
+      "C": "2"
+    }
+  },
+  "gallbladder disease - symptomatic \u2014 current": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "2",
+      "C": "2"
+    },
+    "DMPA": {
+      "I": "2",
+      "C": "2"
+    },
+    "POP": {
+      "I": "2",
+      "C": "2"
+    },
+    "CHC": {
+      "I": "3",
+      "C": "3"
+    }
+  },
+  "gallbladder disease - symptomatic \u2014 treated by cholecystectomy": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "2",
+      "C": "2"
+    },
+    "DMPA": {
+      "I": "2",
+      "C": "2"
+    },
+    "POP": {
+      "I": "2",
+      "C": "2"
+    },
+    "CHC": {
+      "I": "2",
+      "C": "2"
+    }
+  },
+  "gallbladder disease - symptomatic \u2014 medically treated": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "2",
+      "C": "2"
+    },
+    "DMPA": {
+      "I": "2",
+      "C": "2"
+    },
+    "POP": {
+      "I": "2",
+      "C": "2"
+    },
+    "CHC": {
+      "I": "3",
+      "C": "3"
+    }
+  },
+  "gallbladder disease - suspected gtd (immediate postevacuation) \u2014 uterine size first trimester": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "gallbladder disease - suspected gtd (immediate postevacuation) \u2014 uterine size second trimester": {
+    "Cu-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "LNG-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "gallbladder disease - confirmed gtd \u2014 undectectable or non-pregnant \u03b2-hcg levels": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "gallbladder disease - confirmed gtd \u2014 decreasing \u00df-hcg levels": {
+    "Cu-IUD": {
+      "I": "2",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "2",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "gallbladder disease - confirmed gtd \u2014 persistently elevated \u00df-hcg levels or malignant disease, with no evidence or suspicion of intrauterine disease": {
+    "Cu-IUD": {
+      "I": "2",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "2",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "gallbladder disease - confirmed gtd \u2014 persistently elevated \u00df-hcg levels or malignant disease, with evidence or suspicion of intrauterine disease": {
+    "Cu-IUD": {
+      "I": "4",
+      "C": "2"
+    },
+    "LNG-IUD": {
+      "I": "4",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "headaches - nonmigraine (mild or severe)": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "headaches - migraine \u2014 without aura (includes menstrual migraine)": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "2",
+      "C": "2"
+    }
+  },
+  "headaches - migraine \u2014 with aura": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "4",
+      "C": "4"
+    }
+  },
+  "history of bariatric surgery - restrictive procedures": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "history of bariatric surgery - malabsorptive procedures": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "3",
+      "C": "3"
+    },
+    "CHC": {
+      "I": "COCs: 3 - P/R: 1",
+      "C": "COCs: 3 - P/R: 1"
+    }
+  },
+  "history of cholestasis - pregnancy related": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "2",
+      "C": "2"
+    }
+  },
+  "history of cholestasis - past coc related": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "2",
+      "C": "2"
+    },
+    "DMPA": {
+      "I": "2",
+      "C": "2"
+    },
+    "POP": {
+      "I": "2",
+      "C": "2"
+    },
+    "CHC": {
+      "I": "3",
+      "C": "3"
+    }
+  },
+  "history of high blood pressure duringpregnancy": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "2",
+      "C": "2"
+    }
+  },
+  "history of pelvic surgery - see also postpartum (including cesarean delivery)": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "hiv - high risk for hiv": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "hiv - hiv infection": {
+    "Cu-IUD": {
+      "I": "",
+      "C": ""
+    },
+    "LNG-IUD": {
+      "I": "",
+      "C": ""
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "hiv - hiv infection \u2014 clinically well receiving arv therapy": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "If on ARV, see also Drug Interactions.",
+      "C": "If on ARV, see also Drug Interactions."
+    },
+    "DMPA": {
+      "I": "If on ARV, see also Drug Interactions.",
+      "C": "If on ARV, see also Drug Interactions."
+    },
+    "POP": {
+      "I": "If on ARV, see also Drug Interactions.",
+      "C": "If on ARV, see also Drug Interactions."
+    },
+    "CHC": {
+      "I": "If on ARV, see also Drug Interactions.",
+      "C": "If on ARV, see also Drug Interactions."
+    }
+  },
+  "hiv - hiv infection \u2014 not clinically well or not receiving arv therapy": {
+    "Cu-IUD": {
+      "I": "2",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "2",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "If on ARV, see also Drug Interactions.",
+      "C": "If on ARV, see also Drug Interactions."
+    },
+    "DMPA": {
+      "I": "If on ARV, see also Drug Interactions.",
+      "C": "If on ARV, see also Drug Interactions."
+    },
+    "POP": {
+      "I": "If on ARV, see also Drug Interactions.",
+      "C": "If on ARV, see also Drug Interactions."
+    },
+    "CHC": {
+      "I": "If on ARV, see also Drug Interactions.",
+      "C": "If on ARV, see also Drug Interactions."
+    }
+  },
+  "hypertension - adequately controlled hypertension": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "2",
+      "C": "2"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "3",
+      "C": "3"
+    }
+  },
+  "hypertension - elevated blood pressure levels (properly taken measurements) \u2014 systolic 140-159 or diastolic 90-99": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "2",
+      "C": "2"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "3",
+      "C": "3"
+    }
+  },
+  "hypertension - elevated blood pressure levels (properly taken measurements) \u2014 systolic \u2265160 or diastolic \u2265100": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "2",
+      "C": "2"
+    },
+    "DMPA": {
+      "I": "3",
+      "C": "3"
+    },
+    "POP": {
+      "I": "2",
+      "C": "2"
+    },
+    "CHC": {
+      "I": "4",
+      "C": "4"
+    }
+  },
+  "hypertension - vascular disease": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "2",
+      "C": "2"
+    },
+    "DMPA": {
+      "I": "3",
+      "C": "3"
+    },
+    "POP": {
+      "I": "2",
+      "C": "2"
+    },
+    "CHC": {
+      "I": "4",
+      "C": "4"
+    }
+  },
+  "inflammatory bowel disease - ulcerative colitis or crohn\u2019s disease": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "2",
+      "C": "2"
+    },
+    "POP": {
+      "I": "2",
+      "C": "2"
+    },
+    "CHC": {
+      "I": "2/3",
+      "C": "2/3"
+    }
+  },
+  "ischemic heart disease - current and history of": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "2",
+      "C": "3"
+    },
+    "Implant": {
+      "I": "2",
+      "C": "3"
+    },
+    "DMPA": {
+      "I": "3",
+      "C": "3"
+    },
+    "POP": {
+      "I": "2",
+      "C": "3"
+    },
+    "CHC": {
+      "I": "4",
+      "C": "4"
+    }
+  },
+  "liver tumors - benign \u2014 focal nodular hyperplasia": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "2",
+      "C": "2"
+    },
+    "DMPA": {
+      "I": "2",
+      "C": "2"
+    },
+    "POP": {
+      "I": "2",
+      "C": "2"
+    },
+    "CHC": {
+      "I": "2",
+      "C": "2"
+    }
+  },
+  "liver tumors - benign \u2014 hepatocellular adenoma": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "2",
+      "C": "2"
+    },
+    "DMPA": {
+      "I": "3",
+      "C": "3"
+    },
+    "POP": {
+      "I": "2",
+      "C": "2"
+    },
+    "CHC": {
+      "I": "4",
+      "C": "4"
+    }
+  },
+  "liver tumors - malignant (hepatocellular carcinoma)": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "3",
+      "C": "3"
+    },
+    "Implant": {
+      "I": "3",
+      "C": "3"
+    },
+    "DMPA": {
+      "I": "3",
+      "C": "3"
+    },
+    "POP": {
+      "I": "3",
+      "C": "3"
+    },
+    "CHC": {
+      "I": "4",
+      "C": "4"
+    }
+  },
+  "malaria": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "multiple risk factors for atherosclerotic cardiovascular disease - g., older age, smoking, diabetes, hypertension, low hdl, high ldl, or high triglyceride levels": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "2",
+      "C": "2"
+    },
+    "DMPA": {
+      "I": "3",
+      "C": "3"
+    },
+    "POP": {
+      "I": "2",
+      "C": "2"
+    },
+    "CHC": {
+      "I": "3/4",
+      "C": "3/4"
+    }
+  },
+  "multiple sclerosis - without prolonged immobility": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "2",
+      "C": "2"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "multiple sclerosis - with prolonged immobility": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "2",
+      "C": "2"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "3",
+      "C": "3"
+    }
+  },
+  "obesity - body mass index (bmi) \u226530 kg/m2": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "2",
+      "C": "2"
+    }
+  },
+  "obesity - menarche to <18 years and bmi \u226530 kg/m2": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "2",
+      "C": "2"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "2",
+      "C": "2"
+    }
+  },
+  "ovarian cancer": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "parity - nulliparous": {
+    "Cu-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "LNG-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "parity - parous": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "past ectopic pregnancy": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "2",
+      "C": "2"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "pelvic inflammatory disease - current": {
+    "Cu-IUD": {
+      "I": "4",
+      "C": "2"
+    },
+    "LNG-IUD": {
+      "I": "4",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "pelvic inflammatory disease - past \u2014 with subsequent pregnancy": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "pelvic inflammatory disease - past \u2014 without subsequent pregnancy": {
+    "Cu-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "LNG-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "peripartum cardiomyopathy - normal or mildlyimpaired cardiac function \u2014 <6 months": {
+    "Cu-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "LNG-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "2",
+      "C": "2"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "4",
+      "C": "4"
+    }
+  },
+  "peripartum cardiomyopathy - normal or mildlyimpaired cardiac function \u2014 \u22656 months": {
+    "Cu-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "LNG-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "2",
+      "C": "2"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "3",
+      "C": "3"
+    }
+  },
+  "peripartum cardiomyopathy - moderately or severely impaired cardiac function": {
+    "Cu-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "LNG-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "2",
+      "C": "2"
+    },
+    "DMPA": {
+      "I": "3",
+      "C": "3"
+    },
+    "POP": {
+      "I": "2",
+      "C": "2"
+    },
+    "CHC": {
+      "I": "4",
+      "C": "4"
+    }
+  },
+  "postabortion (spontaneous or induced) - first trimester abortion \u2014 procedural (surgical)": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "postabortion (spontaneous or induced) - first trimester abortion \u2014 medication": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1/2",
+      "C": "1/2"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "postabortion (spontaneous or induced) - first trimester abortion \u2014 spontaneous abortion with no intervention": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "postabortion (spontaneous or induced) - second trimester abortionprocedural (surgical)": {
+    "Cu-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "LNG-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "postabortion (spontaneous or induced) - second trimester abortion \u2014 medication": {
+    "Cu-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "LNG-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "postabortion (spontaneous or induced) - second trimester abortion \u2014 spontaneous abortion with no intervention": {
+    "Cu-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "LNG-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "postabortion (spontaneous or induced) - immediate postseptic abortion": {
+    "Cu-IUD": {
+      "I": "4",
+      "C": "4"
+    },
+    "LNG-IUD": {
+      "I": "4",
+      "C": "4"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "postpartum (nonbreastfeeding) - <21 days": {
+    "Cu-IUD": {
+      "I": "",
+      "C": ""
+    },
+    "LNG-IUD": {
+      "I": "",
+      "C": ""
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "2",
+      "C": "2"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "4",
+      "C": "4"
+    }
+  },
+  "postpartum (nonbreastfeeding) - 21 days to 42 days \u2014 with other risk factors for vte": {
+    "Cu-IUD": {
+      "I": "",
+      "C": ""
+    },
+    "LNG-IUD": {
+      "I": "",
+      "C": ""
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "2",
+      "C": "2"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "3",
+      "C": "3"
+    }
+  },
+  "postpartum (nonbreastfeeding) - 21 days to 42 days \u2014 without other risk factors for vte": {
+    "Cu-IUD": {
+      "I": "",
+      "C": ""
+    },
+    "LNG-IUD": {
+      "I": "",
+      "C": ""
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "2",
+      "C": "2"
+    }
+  },
+  "postpartum (nonbreastfeeding) - >42 days": {
+    "Cu-IUD": {
+      "I": "",
+      "C": ""
+    },
+    "LNG-IUD": {
+      "I": "",
+      "C": ""
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "postpartum (including cesarean delivery, breastfeeding, or nonbreastfeeding) - <10 minutes after delivery of the placenta": {
+    "Cu-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "LNG-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "",
+      "C": ""
+    },
+    "DMPA": {
+      "I": "",
+      "C": ""
+    },
+    "POP": {
+      "I": "",
+      "C": ""
+    },
+    "CHC": {
+      "I": "",
+      "C": ""
+    }
+  },
+  "postpartum (including cesarean delivery, breastfeeding, or nonbreastfeeding) - 10 minutes after delivery of the placenta to <4 weeks": {
+    "Cu-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "LNG-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "",
+      "C": ""
+    },
+    "DMPA": {
+      "I": "",
+      "C": ""
+    },
+    "POP": {
+      "I": "",
+      "C": ""
+    },
+    "CHC": {
+      "I": "",
+      "C": ""
+    }
+  },
+  "postpartum (including cesarean delivery, breastfeeding, or nonbreastfeeding) - \u22654 weeks": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "",
+      "C": ""
+    },
+    "DMPA": {
+      "I": "",
+      "C": ""
+    },
+    "POP": {
+      "I": "",
+      "C": ""
+    },
+    "CHC": {
+      "I": "",
+      "C": ""
+    }
+  },
+  "postpartum (including cesarean delivery, breastfeeding, or nonbreastfeeding) - postpartum sepsis": {
+    "Cu-IUD": {
+      "I": "4",
+      "C": "4"
+    },
+    "LNG-IUD": {
+      "I": "4",
+      "C": "4"
+    },
+    "Implant": {
+      "I": "",
+      "C": ""
+    },
+    "DMPA": {
+      "I": "",
+      "C": ""
+    },
+    "POP": {
+      "I": "",
+      "C": ""
+    },
+    "CHC": {
+      "I": "",
+      "C": ""
+    }
+  },
+  "pregnancy": {
+    "Cu-IUD": {
+      "I": "4",
+      "C": "4"
+    },
+    "LNG-IUD": {
+      "I": "4",
+      "C": "4"
+    },
+    "Implant": {
+      "I": "NA*",
+      "C": "NA*"
+    },
+    "DMPA": {
+      "I": "NA*",
+      "C": "NA*"
+    },
+    "POP": {
+      "I": "NA*",
+      "C": "NA*"
+    },
+    "CHC": {
+      "I": "NA*",
+      "C": "NA*"
+    }
+  },
+  "rheumatoid arthritis - not on immunosuppressive therapy": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "2",
+      "C": "2"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "2",
+      "C": "2"
+    }
+  },
+  "rheumatoid arthritis - on immunosuppressive therapy": {
+    "Cu-IUD": {
+      "I": "2",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "2",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "2/3",
+      "C": "2/3"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "2",
+      "C": "2"
+    }
+  },
+  "schistosomiasis - uncomplicated": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "schistosomiasis - fibrosis of the liver (if severe, see also cirrhosis)": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "sexually transmitted infections (stis) - current purulent cervicitis or chlamydial infection or gonococcal infection": {
+    "Cu-IUD": {
+      "I": "4",
+      "C": "2"
+    },
+    "LNG-IUD": {
+      "I": "4",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "sexually transmitted infections (stis) - vaginitis (including trichomonas vaginalis and bacterial vaginosis)": {
+    "Cu-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "LNG-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "sexually transmitted infections (stis) - other factors related to stis": {
+    "Cu-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "LNG-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "sickle cell disease": {
+    "Cu-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "2/3",
+      "C": "2/3"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "4",
+      "C": "4"
+    }
+  },
+  "smoking - age <35": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "2",
+      "C": "2"
+    }
+  },
+  "smoking - age \u226535, <15 cigarettes/day": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "3",
+      "C": "3"
+    }
+  },
+  "smoking - age \u226535, \u226515 cigarettes/day": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "4",
+      "C": "4"
+    }
+  },
+  "solid organ transplantation - no graft failure": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "2",
+      "C": "2"
+    },
+    "DMPA": {
+      "I": "2/3",
+      "C": "2/3"
+    },
+    "POP": {
+      "I": "2",
+      "C": "2"
+    },
+    "CHC": {
+      "I": "2",
+      "C": "2"
+    }
+  },
+  "solid organ transplantation - graft failure": {
+    "Cu-IUD": {
+      "I": "2",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "2",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "2",
+      "C": "2"
+    },
+    "DMPA": {
+      "I": "2/3",
+      "C": "2/3"
+    },
+    "POP": {
+      "I": "2",
+      "C": "2"
+    },
+    "CHC": {
+      "I": "4",
+      "C": "4"
+    }
+  },
+  "stroke - history of cerebrovascular accident": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "2",
+      "C": "3"
+    },
+    "DMPA": {
+      "I": "3",
+      "C": "3"
+    },
+    "POP": {
+      "I": "2",
+      "C": "3"
+    },
+    "CHC": {
+      "I": "4",
+      "C": "4"
+    }
+  },
+  "superficial venous disorders - varicose veins": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "superficial venous disorders - superficial venous thrombosis (acute or history)": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "2",
+      "C": "2"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "3",
+      "C": "3"
+    }
+  },
+  "surgery - minor surgery without immobilization": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "surgery - major surgery \u2014 without prolonged immobilization": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "2",
+      "C": "2"
+    }
+  },
+  "surgery - major surgery \u2014 with prolonged immobilization": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "2",
+      "C": "2"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "4",
+      "C": "4"
+    }
+  },
+  "systemic lupus erythematosus - positive (or unknown) antiphospholipid antibodies": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "2",
+      "C": "2"
+    },
+    "DMPA": {
+      "I": "3",
+      "C": "3"
+    },
+    "POP": {
+      "I": "2",
+      "C": "2"
+    },
+    "CHC": {
+      "I": "4",
+      "C": "4"
+    }
+  },
+  "systemic lupus erythematosus - severe thrombocytopenia": {
+    "Cu-IUD": {
+      "I": "3",
+      "C": "2"
+    },
+    "LNG-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "2",
+      "C": "2"
+    },
+    "DMPA": {
+      "I": "3",
+      "C": "2"
+    },
+    "POP": {
+      "I": "2",
+      "C": "2"
+    },
+    "CHC": {
+      "I": "2",
+      "C": "2"
+    }
+  },
+  "systemic lupus erythematosus - immunosuppressive therapy": {
+    "Cu-IUD": {
+      "I": "2",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "2",
+      "C": "2"
+    },
+    "DMPA": {
+      "I": "2",
+      "C": "2"
+    },
+    "POP": {
+      "I": "2",
+      "C": "2"
+    },
+    "CHC": {
+      "I": "2",
+      "C": "2"
+    }
+  },
+  "systemic lupus erythematosus - none of the above": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "2",
+      "C": "2"
+    },
+    "DMPA": {
+      "I": "2",
+      "C": "2"
+    },
+    "POP": {
+      "I": "2",
+      "C": "2"
+    },
+    "CHC": {
+      "I": "2",
+      "C": "2"
+    }
+  },
+  "thalassemia": {
+    "Cu-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "2"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "thrombophilia": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "2",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "2",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "3",
+      "C": "3"
+    },
+    "POP": {
+      "I": "2",
+      "C": "2"
+    },
+    "CHC": {
+      "I": "4",
+      "C": "4"
+    }
+  },
+  "thyroid disorders - simple goiter, hyperthyroid, or hypothyroid": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "tuberculosis (see also drug interactions) - nonpelvic": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "tuberculosis (see also drug interactions) - pelvic": {
+    "Cu-IUD": {
+      "I": "4",
+      "C": "3"
+    },
+    "LNG-IUD": {
+      "I": "4",
+      "C": "3"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "unexplained vaginal bleeding - (suspicious for serious condition) before evaluation": {
+    "Cu-IUD": {
+      "I": "4",
+      "C": "2"
+    },
+    "LNG-IUD": {
+      "I": "4",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "3",
+      "C": "3"
+    },
+    "DMPA": {
+      "I": "3",
+      "C": "3"
+    },
+    "POP": {
+      "I": "2",
+      "C": "2"
+    },
+    "CHC": {
+      "I": "2",
+      "C": "2"
+    }
+  },
+  "uterine fibroids": {
+    "Cu-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "LNG-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "valvular heart disease - uncomplicated": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "2",
+      "C": "2"
+    }
+  },
+  "valvular heart disease - complicated": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "2",
+      "C": "2"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "4",
+      "C": "4"
+    }
+  },
+  "vaginal bleeding patterns - irregular pattern without heavy bleeding": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "2",
+      "C": "2"
+    },
+    "DMPA": {
+      "I": "2",
+      "C": "2"
+    },
+    "POP": {
+      "I": "2",
+      "C": "2"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "vaginal bleeding patterns - heavy or prolonged bleeding": {
+    "Cu-IUD": {
+      "I": "2",
+      "C": "2"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "2"
+    },
+    "Implant": {
+      "I": "2",
+      "C": "2"
+    },
+    "DMPA": {
+      "I": "2",
+      "C": "2"
+    },
+    "POP": {
+      "I": "2",
+      "C": "2"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "viral hepatitis - acute or flare": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "3/4",
+      "C": "2"
+    }
+  },
+  "viral hepatitis - chronic": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "antiretrovirals (arvs) used for prevention (prep) or treatment of hiv - fosamprenavir (fpv)": {
+    "Cu-IUD": {
+      "I": "1/2",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1/2",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "2",
+      "C": "2"
+    },
+    "DMPA": {
+      "I": "2",
+      "C": "2"
+    },
+    "POP": {
+      "I": "2",
+      "C": "2"
+    },
+    "CHC": {
+      "I": "3",
+      "C": "3"
+    }
+  },
+  "antiretrovirals (arvs) used for prevention (prep) or treatment of hiv - all other arvs are 1 or 2 for all methods": {
+    "Cu-IUD": {
+      "I": "1/2",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1/2",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "2",
+      "C": "2"
+    },
+    "DMPA": {
+      "I": "2",
+      "C": "2"
+    },
+    "POP": {
+      "I": "2",
+      "C": "2"
+    },
+    "CHC": {
+      "I": "3",
+      "C": "3"
+    }
+  },
+  "anticonvulsant therapy - certain anticonvulsants (phenytoin, carbamazepine, barbiturates, primidone, topiramate, oxcarbazepine)": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "2",
+      "C": "2"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "3",
+      "C": "3"
+    },
+    "CHC": {
+      "I": "3",
+      "C": "3"
+    }
+  },
+  "anticonvulsant therapy - lamotrigine": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "3",
+      "C": "3"
+    }
+  },
+  "antimicrobial therapy - broad-spectrum antibiotics": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "antimicrobial therapy - antifungals": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "antimicrobial therapy - antiparasitics": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "antimicrobial therapy - rifampin or rifabutin therapy": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "2",
+      "C": "2"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "3",
+      "C": "3"
+    },
+    "CHC": {
+      "I": "3",
+      "C": "3"
+    }
+  },
+  "ssris": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "1",
+      "C": "1"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "1",
+      "C": "1"
+    },
+    "CHC": {
+      "I": "1",
+      "C": "1"
+    }
+  },
+  "st. john\u2019s wort": {
+    "Cu-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "LNG-IUD": {
+      "I": "1",
+      "C": "1"
+    },
+    "Implant": {
+      "I": "2",
+      "C": "2"
+    },
+    "DMPA": {
+      "I": "1",
+      "C": "1"
+    },
+    "POP": {
+      "I": "2",
+      "C": "2"
+    },
+    "CHC": {
+      "I": "2",
+      "C": "2"
+    }
+  }
+}
