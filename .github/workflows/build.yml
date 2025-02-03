@@ -1,11 +1,11 @@
-name: Build Expo Web App
+name: Build and Publish Expo Web App
 
 on:
   push:
     branches: [ "main" ]
 
 jobs:
-  build:
+  build-and-publish:
     runs-on: ubuntu-latest
 
     steps:
@@ -28,8 +28,23 @@ jobs:
       - name: Build web app
         run: npx expo export --platform web
 
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: expo-web-build
-          path: dist/_expo/static/js/web/
+      - name: Create package.json for GitHub Packages
+        run: |
+          echo '{
+            "name": "@${{ github.repository_owner }}/US-MEC-Web",
+            "version": "1.0.0",
+            "main": "index.js",
+            "files": ["dist"],
+            "repository": {
+              "type": "git",
+              "url": "https://github.com/${{ github.repository }}"
+            },
+            "publishConfig": {
+              "registry": "https://npm.pkg.github.com"
+            }
+          }' > package.json
+
+      - name: Publish to GitHub Packages
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
