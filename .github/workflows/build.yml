@@ -1,0 +1,27 @@
+name: Build Expo Web App
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - run: npm install
+
+      - name: Build web app
+        run: npx expo export --platform web
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: expo-web-build
+          path: dist/web/
