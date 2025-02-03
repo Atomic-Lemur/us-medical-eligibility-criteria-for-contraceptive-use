@@ -29,6 +29,7 @@
     },
     "web": {
       "bundler": "metro",
+      "output": "static",
       "favicon": "./assets/images/favicon.png",
       "name": "US MEC for Contraceptive Use",
       "shortName": "US MEC",
