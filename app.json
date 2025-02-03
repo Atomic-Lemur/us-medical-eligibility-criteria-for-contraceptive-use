@@ -16,14 +16,20 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.yourusername.medicalconditionsreference"
+      "bundleIdentifier": "com.atomiclemur.contraceptiveconditionsreference"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.yourusername.medicalconditionsreference"
+      "package": "com.atomiclemur.contraceptiveconditionsreference"
+    },
+    "newArchEnabled": true,
+    "extra": {
+      "eas": {
+        "projectId": "ffaad88e-bb86-49f9-a478-91e84f71465d"
+      }
     }
   }
 }

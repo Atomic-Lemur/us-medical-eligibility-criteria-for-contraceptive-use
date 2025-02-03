@@ -1,6 +1,17 @@
 import React, { useState, useCallback, useEffect } from 'react';
-import { StyleSheet, View, FlatList, ScrollView, Platform } from 'react-native';
-import { Provider as PaperProvider, Searchbar, Card, Text, Chip, Portal, Modal, List } from 'react-native-paper';
+import { StyleSheet, View, FlatList, ScrollView, Platform, Linking } from 'react-native';
+import {
+    Provider as PaperProvider,
+    Searchbar,
+    Card,
+    Text,
+    Chip,
+    Portal,
+    Modal,
+    List,
+    Button,
+} from 'react-native-paper';
+import * as WebBrowser from 'expo-web-browser';
 import conditionsData from './assets/data.json';
 
 const getColorForValue = (value) => {
@@ -23,6 +34,25 @@ export default function App() {
     const [modalVisible, setModalVisible] = useState(false);
     const [filteredConditions, setFilteredConditions] = useState([]);
     const [selectedConditions, setSelectedConditions] = useState([]);
+
+    const handleOpenPDF = async () => {
+        const pdfUrl =
+            'https://raw.githubusercontent.com/Atomic-Lemur/us-medical-eligibility-criteria-for-contraceptive-use/main/assets/summary_chart.pdf';
+
+        if (Platform.OS === 'web') {
+            // For web, directly open the PDF in a new tab
+            window.open(pdfUrl, '_blank');
+        } else {
+            // For mobile platforms, use WebBrowser
+            try {
+                await WebBrowser.openBrowserAsync(pdfUrl);
+            } catch (error) {
+                console.error('Error opening PDF:', error);
+                // Fallback to default browser if WebBrowser fails
+                await Linking.openURL(pdfUrl);
+            }
+        }
+    };
 
     const handleSearchFocus = () => {
         setModalVisible(true);
@@ -194,17 +224,22 @@ export default function App() {
                         1 = A condition for which there is no restriction for the use of the contraceptive method
                     </Text>
                     <Text style={styles.infoText}>
-                        2 = A condition for which the advantages of using the method generally outweigh the theoretical or proven risks
+                        2 = A condition for which the advantages of using the method generally outweigh the theoretical
+                        or proven risks
                     </Text>
                     <Text style={styles.infoText}>
-                        3 = A condition for which the theoretical or proven risks usually outweigh the advantages of using the method
+                        3 = A condition for which the theoretical or proven risks usually outweigh the advantages of
+                        using the method
                     </Text>
                     <Text style={styles.infoText}>
                         4 = A condition that represents an unacceptable health risk if the contraceptive method is used
                     </Text>
-                    <Text style={styles.infoText}>
-                        source: US Medical Eligibility Criteria for Contraceptive Use
-                    </Text>
+                    <Text style={styles.infoText}>source: US Medical Eligibility Criteria for Contraceptive Use</Text>
+                    <View style={styles.pdfButtonContainer}>
+                        <Button mode='contained' onPress={handleOpenPDF} style={styles.pdfButton}>
+                            View Summary Chart (PDF)
+                        </Button>
+                    </View>
                 </View>
             </View>
         </PaperProvider>
@@ -294,5 +329,11 @@ const styles = StyleSheet.create({
     },
     infoText: {
         fontSize: 10,
+    },
+    pdfButtonContainer: {
+        padding: 5,
+    },
+    pdfButton: {
+        marginVertical: 1,
     },
 });
