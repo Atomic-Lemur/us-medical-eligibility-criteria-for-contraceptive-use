@@ -13,21 +13,7 @@ import {
 } from 'react-native-paper';
 import Pdf from 'react-native-pdf';
 import conditionsData from './assets/data.json';
-
-const getColorForValue = (value) => {
-    switch (value) {
-        case '1':
-            return '#009200FF'; // dark green
-        case '2':
-            return '#5BC515FF'; // green
-        case '3':
-            return '#D96888FF'; // pink
-        case '4':
-            return '#FF0000'; // red
-        default:
-            return '#757575'; // grey
-    }
-};
+import { getColorForValue, INFO_TEXTS, PDF_URL } from './utils';
 
 export default function App() {
     const [searchQuery, setSearchQuery] = useState('');
@@ -37,10 +23,7 @@ export default function App() {
     const [showPdf, setShowPdf] = useState(false);
 
     const renderPdfViewer = () => {
-        const source = {
-            uri: 'https://github.com/Atomic-Lemur/us-medical-eligibility-criteria-for-contraceptive-use/blob/main/assets/summary_chart.pdf?raw=true',
-            cache: true,
-        };
+        const source = { uri: PDF_URL, cache: true };
 
         return (
             <View style={styles.pdfContainer}>
@@ -71,11 +54,9 @@ export default function App() {
                         const isSelected = selectedConditions.some(
                             (selected) => selected.toLowerCase() === condition.toLowerCase()
                         );
-
                         return matches && !isSelected;
                     })
                     .map(([condition]) => condition);
-
                 setFilteredConditions(filtered);
             } else {
                 setFilteredConditions([]);
@@ -87,16 +68,9 @@ export default function App() {
     useEffect(() => {
         const timeoutId = setTimeout(() => {
             debouncedSearch(searchQuery);
-        }, 300); // 300ms delay
-
+        }, 300);
         return () => clearTimeout(timeoutId);
     }, [searchQuery, debouncedSearch]);
-
-    useEffect(() => {
-        if (modalVisible) {
-            debouncedSearch(searchQuery);
-        }
-    }, [modalVisible, searchQuery, debouncedSearch]);
 
     const onChangeSearch = (query) => {
         setModalVisible(true);
@@ -109,9 +83,6 @@ export default function App() {
         }
         setSearchQuery('');
         setFilteredConditions([]);
-    };
-
-    const handleCloseModal = () => {
         setModalVisible(false);
     };
 
@@ -196,7 +167,7 @@ export default function App() {
                         <Portal>
                             <Modal
                                 visible={modalVisible}
-                                onDismiss={() => handleCloseModal()}
+                                onDismiss={() => setModalVisible(false)}
                                 contentContainerStyle={[
                                     styles.modal,
                                     Platform.OS === 'ios' ? { marginTop: 60 } : { marginTop: 40 },
@@ -224,22 +195,11 @@ export default function App() {
                         </Portal>
 
                         <View style={styles.infoBox}>
-                            <Text style={styles.infoText}>
-                                1 = A condition for which there is no restriction for the use of the contraceptive
-                                method
-                            </Text>
-                            <Text style={styles.infoText}>
-                                2 = A condition for which the advantages of using the method generally outweigh the
-                                theoretical or proven risks
-                            </Text>
-                            <Text style={styles.infoText}>
-                                3 = A condition for which the theoretical or proven risks usually outweigh the
-                                advantages of using the method
-                            </Text>
-                            <Text style={styles.infoText}>
-                                4 = A condition that represents an unacceptable health risk if the contraceptive method
-                                is used
-                            </Text>
+                            {INFO_TEXTS.map((text, index) => (
+                                <Text key={index} style={styles.infoText}>
+                                    {index + 1} = {text}
+                                </Text>
+                            ))}
                             <Text style={styles.infoText}>
                                 source: US Medical Eligibility Criteria for Contraceptive Use
                             </Text>

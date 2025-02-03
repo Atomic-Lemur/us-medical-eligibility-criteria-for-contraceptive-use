@@ -1,0 +1,48 @@
+name: Build and Publish Expo App
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          registry-url: 'https://npm.pkg.github.com'
+          scope: '@${{ github.repository_owner }}'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build Expo app
+        run: npx expo export
+
+      - name: Prepare package
+        run: |
+          cd web-build
+          echo '{
+            "name": "@${{ github.repository_owner }}/${{ github.event.repository.name }}-web",
+            "version": "1.0.${{ github.run_number }}",
+            "files": ["*"],
+            "publishConfig": {
+              "registry": "https://npm.pkg.github.com"
+            }
+          }' > package.json
+
+      - name: Publish package
+        run: |
+          cd web-build
+          npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
