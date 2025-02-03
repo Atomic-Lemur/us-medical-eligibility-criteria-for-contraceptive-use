@@ -28,6 +28,14 @@
       },
       "package": "com.atomiclemur.contraceptiveconditionsreference"
     },
+    "web": {
+      "output": "static",
+      "bundler": "metro",
+      "favicon": "./assets/favicon.png",
+      "name": "US MEC for Contraceptive Use",
+      "shortName": "US MEC",
+      "description": "Reference for US Medical Eligibility Criteria for Contraceptive Use"
+    },
     "newArchEnabled": true,
     "extra": {
       "eas": {
